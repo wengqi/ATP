@@ -1,22 +1,24 @@
 {
-    "name": "atp",
-    "description": "atom-page",
-    "version": "0.0.2",
-    "dependencies": {
-    },
-    "devDependencies": {
-    },
-    "main": "index.js",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/atom-page/ATP.git"
-    },
-    "files": [
-        "index.js",
-        "src/**/*.*",
-        "desgin/**/*.*"
-    ],
-    "scripts": {
-        "test": "node ./test/index.js"
-    }
+  "name": "atp",
+  "description": "atom-page",
+  "version": "0.0.2",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^2.1.0",
+    "should": "^4.6.3",
+    "unit.js": "^1.1.2"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/atom-page/ATP.git"
+  },
+  "files": [
+    "index.js",
+    "src/**/*.*",
+    "desgin/**/*.*"
+  ],
+  "scripts": {
+    "test": "mocha"
+  }
 }

@@ -1,4 +1,5 @@
 var Tree = require('./Tree');
+
 function ATP(files) {
     this.tree = new Tree(files);
 }
