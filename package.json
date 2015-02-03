@@ -1,0 +1,22 @@
+{
+    "name": "ATP",
+    "description": "atom-page",
+    "version": "0.0.1",
+    "dependencies": {
+    },
+    "devDependencies": {
+    },
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/atom-page/ATP.git"
+    },
+    "files": [
+        "index.js",
+        "src/**/*.*",
+        "desgin/**/*.*"
+    ],
+    "scripts": {
+        "test": "node ./test/index.js"
+    }
+}
