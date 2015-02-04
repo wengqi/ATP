@@ -1,40 +1,99 @@
-{
-    "cwd": "D:\\Demo\\atom-page\\atom-page",
-    "base": "D:\\Demo\\atom-page\\atom-page\\view\\",
-    "url": "index.html",
-    "name": "",
-    "children": [
-        {
-            "relative": "organisms",
-            "url": "organisms.html",
-            "name": "organisms",
-            "contents": "",
-            "children": [
-                {
-                    "relative": "organisms\\section",
-                    "url": "organisms/section.html",
-                    "name": "section",
-                    "contents": "",
-                    "children": [
-                        {
-                            "relative": "organisms\\section\\aa.html",
-                            "url": "organisms/section/aa.html",
-                            "name": "aa.html",
-                            "contents": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-                            "children": [
-                            ]
-                        },
-                        {
-                            "relative": "organisms\\section\\bb.html",
-                            "url": "organisms/section/bb.html",
-                            "name": "bb.html",
-                            "contents": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
-                            "children": [
-                            ]
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
-}
+[
+    {
+        "relative": "A",
+        "url": "A",
+        "name": "A",
+        "contents": null,
+        "children": [
+            {
+                "relative": "A\\a",
+                "url": "A/a",
+                "name": "a",
+                "contents": null,
+                "children": [
+                    {
+                        "relative": "A\\a\\1.html",
+                        "url": "A/a/1.html",
+                        "name": "1.html",
+                        "contents": "11111111111111111111111111111111111111111111111111111111",
+                        "children": []
+                    },
+                    {
+                        "relative": "A\\a\\2.html",
+                        "url": "A/a/2.html",
+                        "name": "2.html",
+                        "contents": "22222222222222222222222222222222222222222222222222222222222",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "relative": "A\\b",
+                "url": "A/b",
+                "name": "b",
+                "contents": null,
+                "children": [
+                    {
+                        "relative": "A\\b\\3.html",
+                        "url": "A/b/3.html",
+                        "name": "3.html",
+                        "contents": "333333333333333333333333333333333333333333333333333333333",
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "relative": "B",
+        "url": "B",
+        "name": "B",
+        "contents": null,
+        "children": [
+            {
+                "relative": "B\\c",
+                "url": "B/c",
+                "name": "c",
+                "contents": null,
+                "children": [
+                    {
+                        "relative": "B\\c\\4.html",
+                        "url": "B/c/4.html",
+                        "name": "4.html",
+                        "contents": "44444444444444444444444444444444444444444444444444444444",
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "relative": "C",
+        "url": "C",
+        "name": "C",
+        "contents": null,
+        "children": [
+            {
+                "relative": "C\\5.html",
+                "url": "C/5.html",
+                "name": "5.html",
+                "contents": "55555555555555555555555555555555555555555555555555555",
+                "children": []
+            }
+        ]
+    },
+    {
+        "relative": "D",
+        "url": "D",
+        "name": "D",
+        "contents": null,
+        "children": []
+    },
+    {
+        "relative": "6.html",
+        "url": "6.html",
+        "name": "6.html",
+        "contents": "66666666666666666666666666666666666666666666666666666666666",
+        "children": []
+    }
+]

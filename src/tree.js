@@ -29,7 +29,7 @@ Tree.prototype = {
                         relative: relative,
                         url: list.join('/'),
                         name: cur,
-                        contents: index === pathList.length ? file.contents : null,
+                        contents: index + 1 === pathList.length ? file.contents : null,
                         children: []
                     };
                     children.push(fileMap[relative]);
@@ -38,7 +38,6 @@ Tree.prototype = {
 
             }, '');
         });
-        console.log(JSON.stringify(this.children));
         return this;
     }
 

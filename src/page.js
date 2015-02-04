@@ -3,6 +3,8 @@ var util = require('util'),
 
 function Page() {
     ATP.call(this);
+    this.template = "";
+    this.templateUrl = "";
 }
 
 util.inherits(Page, ATP);

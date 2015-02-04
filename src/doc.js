@@ -3,8 +3,11 @@ var util = require('util'),
 
 function Doc() {
     ATP.call(this);
+    this.template = "";
+    this.templateUrl = "";
 }
 
 util.inherits(Doc, ATP);
+
 
 module.exports = Doc;
