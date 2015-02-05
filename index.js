@@ -1,5 +1,5 @@
-var Page = require('./src/page'),
-    Doc = require('./src/doc');
+var Page = require('./lib/page'),
+    Doc = require('./lib/doc');
 
 exports.Page = Page;
 exports.Doc = Doc;

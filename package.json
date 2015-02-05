@@ -1,8 +1,10 @@
 {
   "name": "atp",
   "description": "atom-page",
-  "version": "0.0.2",
-  "dependencies": {},
+  "version": "0.0.3",
+  "dependencies": {
+    "mock.js": "^0.2.0"
+  },
   "devDependencies": {
     "mocha": "^2.1.0",
     "should": "^4.6.3",
