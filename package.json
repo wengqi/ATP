@@ -3,7 +3,9 @@
   "description": "atom-page",
   "version": "0.0.3",
   "dependencies": {
-    "mock.js": "^0.2.0"
+    "jade": "^1.9.1",
+    "mock.js": "^0.2.0",
+    "stylus": "^0.50.0"
   },
   "devDependencies": {
     "mocha": "^2.1.0",
