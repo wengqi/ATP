@@ -5,6 +5,7 @@
   "dependencies": {
     "jade": "^1.9.1",
     "mock.js": "^0.2.0",
+    "oscript-util": "0.0.4",
     "stylus": "^0.50.0"
   },
   "devDependencies": {

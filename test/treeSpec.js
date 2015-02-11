@@ -1,5 +1,5 @@
 describe('Tree', function () {
-    var Tree = require('././tree'),
+    var Tree = require('../lib/tree'),
         should = require('should'),
         files = require('./files');
     var tree = new Tree(files);

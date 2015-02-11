@@ -3,25 +3,33 @@
         "relative": "A",
         "url": "A",
         "name": "A",
-        "contents": null,
+        "contents": [
+            [
+                "11111111111111111111111111111111111111111111111111111111",
+                "22222222222222222222222222222222222222222222222222222222222"
+            ]
+        ],
         "children": [
             {
                 "relative": "A\\a",
                 "url": "A/a",
                 "name": "a",
-                "contents": null,
+                "contents": [
+                    "11111111111111111111111111111111111111111111111111111111",
+                    "22222222222222222222222222222222222222222222222222222222222"
+                ],
                 "children": [
                     {
-                        "relative": "A\\a\\1.html",
-                        "url": "A/a/1.html",
-                        "name": "1.html",
+                        "relative": "A\\a\\1",
+                        "url": "A/a/1",
+                        "name": "1",
                         "contents": "11111111111111111111111111111111111111111111111111111111",
                         "children": []
                     },
                     {
-                        "relative": "A\\a\\2.html",
-                        "url": "A/a/2.html",
-                        "name": "2.html",
+                        "relative": "A\\a\\2",
+                        "url": "A/a/2",
+                        "name": "2",
                         "contents": "22222222222222222222222222222222222222222222222222222222222",
                         "children": []
                     }
@@ -34,9 +42,9 @@
                 "contents": null,
                 "children": [
                     {
-                        "relative": "A\\b\\3.html",
-                        "url": "A/b/3.html",
-                        "name": "3.html",
+                        "relative": "A\\b\\3",
+                        "url": "A/b/3",
+                        "name": "3",
                         "contents": "333333333333333333333333333333333333333333333333333333333",
                         "children": []
                     }
@@ -57,9 +65,9 @@
                 "contents": null,
                 "children": [
                     {
-                        "relative": "B\\c\\4.html",
-                        "url": "B/c/4.html",
-                        "name": "4.html",
+                        "relative": "B\\c\\4",
+                        "url": "B/c/4",
+                        "name": "4",
                         "contents": "44444444444444444444444444444444444444444444444444444444",
                         "children": []
                     }
@@ -74,9 +82,9 @@
         "contents": null,
         "children": [
             {
-                "relative": "C\\5.html",
-                "url": "C/5.html",
-                "name": "5.html",
+                "relative": "C\\5",
+                "url": "C/5",
+                "name": "5",
                 "contents": "55555555555555555555555555555555555555555555555555555",
                 "children": []
             }
@@ -90,9 +98,9 @@
         "children": []
     },
     {
-        "relative": "6.html",
-        "url": "6.html",
-        "name": "6.html",
+        "relative": "6",
+        "url": "6",
+        "name": "6",
         "contents": "66666666666666666666666666666666666666666666666666666666666",
         "children": []
     }
