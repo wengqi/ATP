@@ -1,7 +1,7 @@
 {
   "name": "atp",
   "description": "atom-page",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "dependencies": {
     "jade": "^1.9.1",
     "mock.js": "^0.2.0",
