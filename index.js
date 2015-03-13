@@ -1,5 +1,9 @@
-var ATP = require('./lib/view/ATP');
-ATP.view = require('./lib/wrap/gulp-ATP');
-ATP.style = require('./lib/style/define');
+var config = require('./lib/wrap/gulp-config'),
+    doc = require('./lib/wrap/gulp-doc'),
+    define = require('./lib/wrap/define');
 
-module.exports = ATP;
+module.exports = {
+    config: config,
+    doc: doc,
+    define: define
+};

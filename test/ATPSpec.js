@@ -1,5 +1,5 @@
 describe('ATP', function () {
-    var ATP = require('../lib/view/ATP'),
+    var ATP = require('../lib/wrap/ATP'),
         should = require('should'),
         test = require('unit.js'),
         files = require('./files');

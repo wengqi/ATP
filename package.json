@@ -24,6 +24,6 @@
     "desgin/**/*.*"
   ],
   "scripts": {
-    "test": "mocha"
+    "test": "mocha ./test/config/engineSpec"
   }
 }
