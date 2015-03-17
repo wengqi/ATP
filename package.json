@@ -1,12 +1,14 @@
 {
   "name": "atp",
   "description": "atom-page",
-  "version": "0.0.5",
+  "version": "0.0.10",
   "dependencies": {
+    "gulp-util": "^3.0.4",
     "jade": "^1.9.1",
-    "mock.js": "^0.2.0",
-    "oscript-util": "0.0.4",
-    "stylus": "^0.50.0"
+    "mockjs": "^0.1.4",
+    "stylus": "^0.50.0",
+    "through2": "^0.6.3",
+    "vinyl": "^0.4.6"
   },
   "devDependencies": {
     "mocha": "^2.1.0",
@@ -20,7 +22,8 @@
   },
   "files": [
     "index.js",
-    "src/**/*.*",
+    "lib/**/*.*",
+    "test/**/*.*",
     "desgin/**/*.*"
   ],
   "scripts": {
