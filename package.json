@@ -1,7 +1,7 @@
 {
     "name": "atp",
     "description": "atom-page",
-    "version": "0.0.12",
+    "version": "0.0.14",
     "dependencies": {
         "gulp-util": "^3.0.4",
         "jade": "^1.9.1",
