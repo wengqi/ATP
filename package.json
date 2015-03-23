@@ -1,32 +1,32 @@
 {
-  "name": "atp",
-  "description": "atom-page",
-  "version": "0.0.10",
-  "dependencies": {
-    "gulp-util": "^3.0.4",
-    "jade": "^1.9.1",
-    "mockjs": "^0.1.4",
-    "stylus": "^0.50.0",
-    "through2": "^0.6.3",
-    "vinyl": "^0.4.6"
-  },
-  "devDependencies": {
-    "mocha": "^2.1.0",
-    "should": "^4.6.3",
-    "unit.js": "^1.1.2"
-  },
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/atom-page/ATP.git"
-  },
-  "files": [
-    "index.js",
-    "lib/**/*.*",
-    "test/**/*.*",
-    "desgin/**/*.*"
-  ],
-  "scripts": {
-    "test": "mocha ./test/config/engineSpec"
-  }
+    "name": "atp",
+    "description": "atom-page",
+    "version": "0.0.11",
+    "dependencies": {
+        "gulp-util": "^3.0.4",
+        "jade": "^1.9.1",
+        "mockjs": "^0.1.4",
+        "stylus": "^0.50.0",
+        "through2": "^0.6.3",
+        "vinyl": "^0.4.6"
+    },
+    "devDependencies": {
+        "mocha": "^2.1.0",
+        "should": "^4.6.3",
+        "unit.js": "^1.1.2"
+    },
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/atom-page/ATP.git"
+    },
+    "files": [
+        "index.js",
+        "lib/**/*.*",
+        "test/**/*.*",
+        "desgin/**/*.*"
+    ],
+    "scripts": {
+        "test": "mocha ./test/config/engineSpec"
+    }
 }
