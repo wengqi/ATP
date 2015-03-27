@@ -1,14 +1,6 @@
 # ATP
 atom-page([ATP](http://atom-page.com/))
 
----
-title:      简介
-subtitle:   使用文档
-date:       2015.3.24
----
-
-[![NPM version][npm-image]][npm-url]
-
 ## ATP是什么？
 ATP 为 atom-page 的简称，即原子化页面，其重要思想源自 [atomic design](http://www.patternlab.io/)，
 原子化设计是把页面从大到小分级划分页面，然后再设计页面中的每一个细节。而借助这个思路，可以研究前端代码的组织，
